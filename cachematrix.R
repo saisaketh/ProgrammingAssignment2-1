@@ -14,7 +14,7 @@ x<<-y
 m<<-NULL
 }
 get<-function() x
-setinverse<-function(inv_mat) m<<-inv_matrix
+setinverse<-function(inv_mat) m<<-inv_mat
 getinverse<-function() m
 list(set = set, get = get, setinverse = setinverse, getinverse = getinverse )
 }
